@@ -1,7 +1,18 @@
 fn main() {
-    println!("Calc Fibonacci --- START");
-}
+    let mut a = 1;
+    let mut b = 1;
+    let mut now = a + b;
 
-fn get_fibonacchi() -> u32 {
+    println!("{}", a);
+    println!("{}", b);
+    println!("{}", now);
 
+    let mut cnt = 0;
+    while cnt < 10 {
+        a = b;
+        b = now;
+        now = a + b;
+        println!("{}", now);
+        cnt = cnt + 1;
+    }
 }
