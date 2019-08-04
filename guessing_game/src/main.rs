@@ -30,12 +30,12 @@ fn main() {
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
-				challenge_num = challenge_num + 1;
+                challenge_num = challenge_num + 1;
                 println!("You win!");
-				println!("You challenge {} times!", challenge_num);
+                println!("You challenge {} times!", challenge_num);
                 break;
             }
         }
-		challenge_num = challenge_num + 1;
+        challenge_num = challenge_num + 1;
     }
 }
