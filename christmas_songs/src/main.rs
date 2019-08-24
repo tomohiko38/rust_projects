@@ -1,5 +1,5 @@
 fn main() {
-    
+
     let repeat_lyrics = ["And a partridge in a pear tree.",
                          "Two turtle doves,",
                          "Three French hens,",
@@ -14,7 +14,7 @@ fn main() {
                          "Twelve ladies dancing,"];
 
     for i in 1..12 {
-        
+
         get_fixed_lyrics();
 
         for j in (0..i).rev() {
